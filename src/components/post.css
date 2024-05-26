@@ -1,0 +1,31 @@
+.post{
+    display: flex;
+    align-items: center;
+    gap:5;
+    background-color: rgb(231, 224, 120);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.post>span{
+    background-color: aliceblue;
+    padding: 2px 8px 4px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.label{
+    color: blue;
+    font-weight: bolder;
+    padding-right: 10px;
+}
+
+.checkbox{
+    color: rgb(10, 2, 39);
+}
